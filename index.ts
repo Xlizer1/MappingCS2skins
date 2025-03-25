@@ -16,7 +16,7 @@ async function fetchSkins(
     const url = cursor ? `${apiUrl}?cursor=${cursor}` : apiUrl;
     const response = await fetch(url, {
       headers: {
-        Authorization: "MNKlrP29t6SX11K0KNr0gmcCkvM-O2yU",
+        Authorization: "6SIpYFnrHlGeDLGlui2E0Ed9w5zg7420",
       },
     });
 
@@ -66,7 +66,7 @@ async function main() {
           keychain_index: keychainIndex,
         };
       } else {
-        console.log("Skin already exists: ", name);
+        // console.log("Skin already exists: ", name);
       }
     });
 
